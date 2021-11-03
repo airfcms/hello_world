@@ -2,7 +2,7 @@
 
 //Get the Jenkinsfile from the devops_jenkins directory (repository)
 GroovyShell shell = new GroovyShell()
-def tools = shell.parse(new File("../devops_project/Jenkinsfile"))
+def tools = shell.parse(new File("../devops_jenkins/automation/pipelines.groovy"))
 
 //Get the name of repository name
 def repositoryName = "pwd".execute()
