@@ -19,4 +19,4 @@ tools.devops_call(repositoryName)
 
 @Library('csw-airfcms-pipelines-library') _
 
-devops_call('sometext')
+pipelines('sometext')
