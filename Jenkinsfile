@@ -17,7 +17,7 @@ tools.devops_call(repositoryName)
 
 */ // All wrong, it must be from jenkins import configuration
 
-//@Library('csw-airfcms-pipelines-library') import com.criticalsoftware.automation.Pipelines
+@Library('csw-airfcms-pipelines-library') _ 
 
 
 
