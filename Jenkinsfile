@@ -21,4 +21,4 @@ tools.devops_call(repositoryName)
 
 def pipeline = new Pipelines()
 
-pipeline.devops_call('sometext')
+pipeline.call('sometext')
