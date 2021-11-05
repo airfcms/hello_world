@@ -6,7 +6,7 @@ Pipelines {
     repoName = ''
     dockerImage = 'csw-docker-registry/csw-airfcms-ubuntu'
     //label = '' //(optional)
-    dockerRegistryUrl = ' https://airfcms.jfrog.io/'
+    dockerRegistryUrl = 'https://airfcms.jfrog.io/'
     dockerRegistryCredentialsId = 'JFrog_Artifactory_Docker_Registry'
     //Version for deploy
 }
