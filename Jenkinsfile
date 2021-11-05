@@ -3,5 +3,10 @@
 @Library('csw-airfcms-pipelines-library') _
 
 Pipelines {
-    name = 'master'
+    repoName = ''
+    dockerImage = 'csw-docker-registry/csw-airfcms-ubuntu'
+    //label = '' //(optional)
+    dockerRegistryUrl = ' https://airfcms.jfrog.io/'
+    dockerRegistryCredentialsId = 'JFrog_Artifactory_Docker_Registry'
+    //Version for deploy
 }
