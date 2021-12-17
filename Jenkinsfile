@@ -8,7 +8,7 @@ Pipelines {
     dockerImage = 'csw-docker-registry/csw-airfcms-ubuntu'
     dockerRegistryUrl = 'https://airfcms.jfrog.io/'
     artifactoryGenericRegistry_ID = 'artifactory_generic_repository'
-    artifactoryGenericRegistry_URL = 'http://40.67.228.51:8082'
+    artifactoryGenericRegistry_URL = 'http://13.74.193.205:8081'
     fullTestAutomation = true
     //Version for deploy
 }
