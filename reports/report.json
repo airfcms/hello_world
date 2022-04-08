@@ -7,12 +7,12 @@
             "type": "BUG",
             "primaryLocation": {
                 "message": "NOTE: Suspicious here!",
-                "filePath": "File3.h",
+                "filePath": "src/main.cc",
                 "textRange": {
-                    "startLine": "51",
-                    "endLine": "51",
-                    "startColumn": "8",
-                    "endColumn": "25"
+                    "startLine": 4,
+                    "endLine": 4,
+                    "startColumn": 1,
+                    "endColumn": 1
                 }
             },
             "effortMinutes": 0
@@ -24,12 +24,12 @@
             "type": "CODE_SMELL",
             "primaryLocation": {
                 "message": "ALARM (R): check reserved-identifier failed (violates M2012.21.1-required)",
-                "filePath": "File3.h",
+                "filePath": "src/main.cc",
                 "textRange": {
-                    "startLine": "51",
-                    "endLine": "51",
-                    "startColumn": "8",
-                    "endColumn": "25"
+                    "startLine": 6,
+                    "endLine": 6,
+                    "startColumn": 4,
+                    "endColumn": 4
                 }
             },
             "effortMinutes": 0
@@ -41,22 +41,22 @@
             "type": "CODE_SMELL",
             "primaryLocation": {
                 "message": "[ the essential operand types are unsigned char and signed char. ALARM (R): check essential-arithmetic-conversion failed (violates M2012.10.4-required)",
-                "filePath": "../File1.c",
+                "filePath": "src/main.cc",
                 "textRange": {
-                    "startLine": "1841",
-                    "endLine": "1841",
-                    "startColumn": "18",
-                    "endColumn": "27"
+                    "startLine": 5,
+                    "endLine": 5,
+                    "startColumn": 2,
+                    "endColumn": 2
                 }
             },
             "effortMinutes": 0,
             "secondaryLocations": [
                 {
                     "message": "",
-                    "filePath": "../File1.c",
+                    "filePath": "src/main.cc",
                     "textRange": {
-                        "startLine": "1003",
-                        "endLine": "1003",
+                        "startLine": 6,
+                        "endLine": 6,
                         "startColumn": 0,
                         "endColumn": 0
                     }
@@ -70,22 +70,22 @@
             "type": "BUG",
             "primaryLocation": {
                 "message": "ERROR: Definite runtime error during assignment in this context. Analysis stopped for this context.",
-                "filePath": "File2.c",
+                "filePath": "src/main.cc",
                 "textRange": {
-                    "startLine": "974",
-                    "endLine": "974",
-                    "startColumn": "8",
-                    "endColumn": "24"
+                    "startLine": 7,
+                    "endLine": 7,
+                    "startColumn": 8,
+                    "endColumn": 8
                 }
             },
             "effortMinutes": 0,
             "secondaryLocations": [
                 {
                     "message": "",
-                    "filePath": "File2.c",
+                    "filePath": "src/main.cc",
                     "textRange": {
-                        "startLine": "97",
-                        "endLine": "97",
+                        "startLine": 8,
+                        "endLine": 8,
                         "startColumn": 0,
                         "endColumn": 0
                     }
