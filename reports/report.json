@@ -21,7 +21,7 @@
             "engineId": "pyAstree2SQ",
             "ruleId": "a22682",
             "severity": "INFO",
-            "type": null,
+            "type": "CODE_SMELL",
             "primaryLocation": {
                 "message": "ALARM (R): check reserved-identifier failed (violates M2012.21.1-required)",
                 "filePath": "File3.h",
@@ -38,7 +38,7 @@
             "engineId": "pyAstree2SQ",
             "ruleId": "a22845",
             "severity": "INFO",
-            "type": null,
+            "type": "CODE_SMELL",
             "primaryLocation": {
                 "message": "[ the essential operand types are unsigned char and signed char. ALARM (R): check essential-arithmetic-conversion failed (violates M2012.10.4-required)",
                 "filePath": "../File1.c",
