@@ -1,35 +1,6 @@
 { "issues": [
     {
       "engineId": "test",
-      "ruleId": "rule1",
-      "severity":"BLOCKER",
-      "type":"CODE_SMELL",
-      "primaryLocation": {
-        "message": "fully-fleshed issue",
-        "filePath": "src/main.cc",
-        "textRange": {
-          "startLine": 4,
-          "endLine": 4,
-          "startColumn": 4,
-          "endColumn": 4
-        }
-      },
-      "effortMinutes": 90,
-      "secondaryLocations": [
-        {
-          "message": "cross-file 2ndary location",
-          "filePath": "src/main.cc",
-          "textRange": {
-            "startLine": 4,
-            "endLine": 4,
-            "startColumn": 4,
-            "endColumn": 4
-          }
-        }
-      ]
-    },
-    {
-      "engineId": "test",
       "ruleId": "rule2",
       "severity": "INFO",
       "type": "BUG",
