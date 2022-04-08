@@ -1,96 +1,41 @@
-{
-    "issues": [
-        {
-            "engineId": "pyAstree2SQ",
-            "ruleId": "a21536",
-            "severity": "INFO",
-            "type": "BUG",
-            "primaryLocation": {
-                "message": "NOTE: Suspicious here!",
-                "filePath": "src/main.cc",
-                "textRange": {
-                    "startLine": 4,
-                    "endLine": 4,
-                    "startColumn": 1,
-                    "endColumn": 1
-                }
-            },
-            "effortMinutes": 0
-        },
-        {
-            "engineId": "pyAstree2SQ",
-            "ruleId": "a22682",
-            "severity": "INFO",
-            "type": "CODE_SMELL",
-            "primaryLocation": {
-                "message": "ALARM (R): check reserved-identifier failed (violates M2012.21.1-required)",
-                "filePath": "src/main.cc",
-                "textRange": {
-                    "startLine": 6,
-                    "endLine": 6,
-                    "startColumn": 4,
-                    "endColumn": 4
-                }
-            },
-            "effortMinutes": 0
-        },
-        {
-            "engineId": "pyAstree2SQ",
-            "ruleId": "a22845",
-            "severity": "INFO",
-            "type": "CODE_SMELL",
-            "primaryLocation": {
-                "message": "[ the essential operand types are unsigned char and signed char. ALARM (R): check essential-arithmetic-conversion failed (violates M2012.10.4-required)",
-                "filePath": "src/main.cc",
-                "textRange": {
-                    "startLine": 5,
-                    "endLine": 5,
-                    "startColumn": 2,
-                    "endColumn": 2
-                }
-            },
-            "effortMinutes": 0,
-            "secondaryLocations": [
-                {
-                    "message": "",
-                    "filePath": "src/main.cc",
-                    "textRange": {
-                        "startLine": 6,
-                        "endLine": 6,
-                        "startColumn": 0,
-                        "endColumn": 0
-                    }
-                }
-            ]
-        },
-        {
-            "engineId": "pyAstree2SQ",
-            "ruleId": "a21541",
-            "severity": "INFO",
-            "type": "BUG",
-            "primaryLocation": {
-                "message": "ERROR: Definite runtime error during assignment in this context. Analysis stopped for this context.",
-                "filePath": "src/main.cc",
-                "textRange": {
-                    "startLine": 7,
-                    "endLine": 7,
-                    "startColumn": 8,
-                    "endColumn": 8
-                }
-            },
-            "effortMinutes": 0,
-            "secondaryLocations": [
-                {
-                    "message": "",
-                    "filePath": "src/main.cc",
-                    "textRange": {
-                        "startLine": 8,
-                        "endLine": 8,
-                        "startColumn": 0,
-                        "endColumn": 0
-                    }
-                }
-            ]
+{ "issues": [
+    {
+      "engineId": "test",
+      "ruleId": "rule1",
+      "severity":"BLOCKER",
+      "type":"CODE_SMELL",
+      "primaryLocation": {
+        "message": "fully-fleshed issue",
+        "filePath": "src/main.cc",
+        "textRange": {
+          "startLine": 4,
+          "endLine": 4,
+          "startColumn": 4,
+          "endColumn": 4
         }
-    ]
-}
+      },
+      "effortMinutes": 90,
+      "secondaryLocations": [
+        {
+          "message": "cross-file 2ndary location",
+          "filePath": "src/main.cc",
+          "textRange": {
+            "startLine": 4,
+            "endLine": 4,
+            "startColumn": 4,
+            "endColumn": 4
+          }
+        }
+      ]
+    },
+    {
+      "engineId": "test",
+      "ruleId": "rule2",
+      "severity": "INFO",
+      "type": "BUG",
+      "primaryLocation": {
+        "message": "minimal issue raised at file level",
+        "filePath": "src/main.cc"
+      }
+    }
+]}
