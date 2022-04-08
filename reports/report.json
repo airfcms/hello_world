@@ -9,8 +9,10 @@
                 "message": "NOTE: Suspicious here!",
                 "filePath": "src/main.cc",
                 "textRange": {
-                    "startLine": 4,
-                    "endLine": 4
+                    "startLine": 5,
+                    "endLine": 5,
+                    "startColumn": 8,
+                    "endColumn": 25
                 }
             },
             "effortMinutes": 0
@@ -25,7 +27,9 @@
                 "filePath": "src/main.cc",
                 "textRange": {
                     "startLine": 5,
-                    "endLine": 5
+                    "endLine": 5,
+                    "startColumn": 8,
+                    "endColumn": 25
                 }
             },
             "effortMinutes": 0
@@ -39,8 +43,10 @@
                 "message": "[ the essential operand types are unsigned char and signed char. ALARM (R): check essential-arithmetic-conversion failed (violates M2012.10.4-required)",
                 "filePath": "src/main.cc",
                 "textRange": {
-                    "startLine": 5,
-                    "endLine": 5
+                    "startLine": 4,
+                    "endLine": 4,
+                    "startColumn": 5,
+                    "endColumn": 33
                 }
             },
             "effortMinutes": 0,
@@ -49,8 +55,8 @@
                     "message": "",
                     "filePath": "src/main.cc",
                     "textRange": {
-                        "startLine": 6,
-                        "endLine": 6
+                        "startLine": 4,
+                        "endLine": 4
                     }
                 }
             ]
@@ -64,8 +70,10 @@
                 "message": "ERROR: Definite runtime error during assignment in this context. Analysis stopped for this context.",
                 "filePath": "src/main.cc",
                 "textRange": {
-                    "startLine": 6,
-                    "endLine": 6
+                    "startLine": 4,
+                    "endLine": 4,
+                    "startColumn": 8,
+                    "endColumn": 24
                 }
             },
             "effortMinutes": 0,
@@ -74,8 +82,8 @@
                     "message": "",
                     "filePath": "src/main.cc",
                     "textRange": {
-                        "startLine": 6,
-                        "endLine": 6
+                        "startLine": 5,
+                        "endLine": 5
                     }
                 }
             ]
