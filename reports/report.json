@@ -7,7 +7,11 @@
             "type": "BUG",
             "primaryLocation": {
                 "message": "NOTE: Suspicious here!",
-                "filePath": "src/main.cc"
+                "filePath": "src/main.cc",
+                "textRange": {
+                    "startLine": 4,
+                    "endLine": 4
+                }
             },
             "effortMinutes": 0
         },
@@ -18,7 +22,11 @@
             "type": "CODE_SMELL",
             "primaryLocation": {
                 "message": "ALARM (R): check reserved-identifier failed (violates M2012.21.1-required)",
-                "filePath": "src/main.cc"
+                "filePath": "src/main.cc",
+                "textRange": {
+                    "startLine": 5,
+                    "endLine": 5
+                }
             },
             "effortMinutes": 0
         },
@@ -29,9 +37,19 @@
             "type": "CODE_SMELL",
             "primaryLocation": {
                 "message": "[ the essential operand types are unsigned char and signed char. ALARM (R): check essential-arithmetic-conversion failed (violates M2012.10.4-required)",
-                "filePath": "src/main.cc"
+                "filePath": "src/main.cc",
+                "textRange": {
+                    "startLine": 5,
+                    "endLine": 5
+                }
             },
-            "effortMinutes": 0
+            "effortMinutes": 0,
+            "secondaryLocations": [
+                {
+                    "message": "",
+                    "filePath": "src/main.cc"
+                }
+            ]
         },
         {
             "engineId": "pyAstree2SQ",
@@ -40,9 +58,19 @@
             "type": "BUG",
             "primaryLocation": {
                 "message": "ERROR: Definite runtime error during assignment in this context. Analysis stopped for this context.",
-                "filePath": "src/main.cc"
+                "filePath": "src/main.cc",
+                "textRange": {
+                    "startLine": 6,
+                    "endLine": 6
+                }
             },
-            "effortMinutes": 0
+            "effortMinutes": 0,
+            "secondaryLocations": [
+                {
+                    "message": "",
+                    "filePath": "src/main.cc"
+                    }
+            ]
         }
     ]
 }
