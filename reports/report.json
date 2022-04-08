@@ -10,9 +10,7 @@
                 "filePath": "src/main.cc",
                 "textRange": {
                     "startLine": 4,
-                    "endLine": 4,
-                    "startColumn": 1,
-                    "endColumn": 1
+                    "endLine": 4
                 }
             },
             "effortMinutes": 0
@@ -27,9 +25,7 @@
                 "filePath": "src/main.cc",
                 "textRange": {
                     "startLine": 5,
-                    "endLine": 5,
-                    "startColumn": 4,
-                    "endColumn": 4
+                    "endLine": 5
                 }
             },
             "effortMinutes": 0
@@ -44,9 +40,7 @@
                 "filePath": "src/main.cc",
                 "textRange": {
                     "startLine": 5,
-                    "endLine": 5,
-                    "startColumn": 2,
-                    "endColumn": 2
+                    "endLine": 5
                 }
             },
             "effortMinutes": 0,
@@ -71,9 +65,7 @@
                 "filePath": "src/main.cc",
                 "textRange": {
                     "startLine": 6,
-                    "endLine": 6,
-                    "startColumn": 8,
-                    "endColumn": 8
+                    "endLine": 6
                 }
             },
             "effortMinutes": 0,
