@@ -9,3 +9,5 @@ Simple cxx plugin "Hello World" example:
 
 Please also read the cxx plugin Wiki:
 - https://github.com/SonarOpenCommunity/sonar-cxx/wiki
+
+testing
