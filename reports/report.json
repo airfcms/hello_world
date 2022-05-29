@@ -21,7 +21,7 @@
             "engineId": "astree2sq",
             "ruleId": "M2012.3.1",
             "severity": "MAJOR",
-            "type": "BUG}",
+            "type": "BUG",
             "primaryLocation": {
                 "message": "ALARM (R) check_smline_comment: check failed (violates M2012.3.1-required)\nCheck smline-comment: The character sequence /* shall not be used within a line comment.\nRule M2012.3.1 - The character sequences /* and // shall not be used within a comment.",
                 "filePath": "src/main.cc",
