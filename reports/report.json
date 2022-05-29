@@ -1,12 +1,12 @@
 {
     "issues": [
         {
-            "engineId": "pyAstree2SQ",
-            "ruleId": "a21536",
-            "severity": "INFO",
+            "engineId": "astree2sq",
+            "ruleId": "A.6.2",
+            "severity": "MINOR",
             "type": "BUG",
             "primaryLocation": {
-                "message": "NOTE: Suspicious here!",
+                "message": "TODO. ALARM (R) check_clang_warning: check failed (violates A.6.2)\nCheck clang-warning: Warning issued by the clang frontend.\nRule A.6.2 - Clang warnings.",
                 "filePath": "src/main.cc",
                 "textRange": {
                     "startLine": 5,
@@ -18,12 +18,12 @@
             "effortMinutes": 0
         },
         {
-            "engineId": "pyAstree2SQ",
-            "ruleId": "a22682",
-            "severity": "INFO",
-            "type": "CODE_SMELL",
+            "engineId": "astree2sq",
+            "ruleId": "M2012.3.1",
+            "severity": "MAJOR",
+            "type": "BUG}",
             "primaryLocation": {
-                "message": "ALARM (R): check reserved-identifier failed (violates M2012.21.1-required)",
+                "message": "ALARM (R) check_smline_comment: check failed (violates M2012.3.1-required)\nCheck smline-comment: The character sequence /* shall not be used within a line comment.\nRule M2012.3.1 - The character sequences /* and // shall not be used within a comment.",
                 "filePath": "src/main.cc",
                 "textRange": {
                     "startLine": 5,
@@ -35,12 +35,12 @@
             "effortMinutes": 0
         },
         {
-            "engineId": "pyAstree2SQ",
-            "ruleId": "a22845",
-            "severity": "INFO",
-            "type": "CODE_SMELL",
+            "engineId": "astree2sq",
+            "ruleId": "M2012.20.13",
+            "severity": "MAJOR",
+            "type": "BUG",
             "primaryLocation": {
-                "message": "[ the essential operand types are unsigned char and signed char. ALARM (R): check essential-arithmetic-conversion failed (violates M2012.10.4-required)",
+                "message": "ALARM (R) check_non_directive: check failed (violates M2012.20.13-required)\nCheck non-directive: Non-directive preprocessing directives shall be avoided.\nRule M2012.20.13 - A line whose first token is # shall be a valid preprocessing directive.",
                 "filePath": "src/main.cc",
                 "textRange": {
                     "startLine": 4,
@@ -62,12 +62,12 @@
             ]
         },
         {
-            "engineId": "pyAstree2SQ",
-            "ruleId": "a21541",
-            "severity": "INFO",
+            "engineId": "astree2sq",
+            "ruleId": "A.2.16",
+            "severity": "MAJOR",
             "type": "BUG",
             "primaryLocation": {
-                "message": "ERROR: Definite runtime error during assignment in this context. Analysis stopped for this context.",
+                "message": "ALARM (R) check_attribute: check failed (violates A.2.16, M2012.1.2-advisory)\nCheck attribute: __attribute__((...)) and __attribute((...)) shall not be used.\nRule A.2.16 - __attribute__((...)) and __attribute((...)) shall not be used. (ISO/IEC 9899:1999 4p5)\nCheck attribute: __attribute__((...)) and __attribute((...)) shall not be used.\nRule M2012.1.2 - Language extensions should not be used.",
                 "filePath": "src/main.cc",
                 "textRange": {
                     "startLine": 4,
