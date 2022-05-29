@@ -10,5 +10,6 @@ Pipelines {
     artifactoryGenericRegistry_ID = 'artifactory_generic_repository'
     artifactoryGenericRegistry_URL = 'http://airfcms-devops.northeurope.cloudapp.azure.com:8082'
     fullTestAutomation = true
+    checkCmp = false
     //Version for deploy
 }
